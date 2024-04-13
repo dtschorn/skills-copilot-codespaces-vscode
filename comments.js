@@ -12,7 +12,7 @@
 
 const http = require('http');
 const fs = require('fs'); // File System
-const path = require('path');
+const path = require('path'); // Path
 
 const server = http.createServer((req, res) => {
   const filePath = path.resolve(__dirname, 'comments.json');
