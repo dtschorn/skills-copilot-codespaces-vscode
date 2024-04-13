@@ -1,4 +1,4 @@
-// Create Web Server
+// Create Web Server with Comments
 // Create a web server that listens on port 3000.
 // The web server responds to any request to the server root with a web page that displays the following:
 // The title "Comments"
@@ -11,7 +11,7 @@
 // Use the path module to resolve the file paths
 
 const http = require('http');
-const fs = require('fs');
+const fs = require('fs'); // File System
 const path = require('path');
 
 const server = http.createServer((req, res) => {
