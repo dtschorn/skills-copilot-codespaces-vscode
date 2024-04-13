@@ -1,4 +1,4 @@
-// Create Web Server
+// Create web server
 // Create a web server that listens on port 3000.
 // The web server responds to any request to the server root with a web page that displays the following:
 // The title "Comments"
